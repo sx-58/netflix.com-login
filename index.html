@@ -4,47 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix - Entrar</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="antialiased">
 
-    <header class="p-6 md:px-12">
+    <header class="header">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" 
-             alt="Netflix" 
-             class="logo-netflix">
+             alt="Netflix" class="logo">
     </header>
 
-    <main class="main-container">
+    <main class="main-content">
         <h1 class="title">Informe seus dados para entrar</h1>
         
         <p class="subtitle">
             Ou <a href="#" class="link-white">crie uma conta</a>.
         </p>
 
-        <form id="loginForm" class="space-y-4">
-            <div class="relative">
-                <input type="text" id="email" required
+        <form id="loginForm" class="login-form">
+            <div class="input-group">
+                <input type="text" id="email" name="email" required
                        placeholder="Email ou número de celular" 
-                       class="input-field w-full p-4 rounded-[4px] text-base h-[56px]">
+                       class="input-field">
             </div>
 
-            <div class="relative">
-                <input type="password" id="password" required
+            <div class="input-group">
+                <input type="password" id="password" name="password" required
                        placeholder="Senha" 
-                       class="input-field w-full p-4 rounded-[4px] text-base h-[56px]">
+                       class="input-field">
             </div>
 
-            <button type="submit" id="submitBtn"
-                    class="btn-netflix w-full h-[48px] rounded-[4px] text-base font-bold mt-2">
+            <button type="submit" id="submitBtn" class="btn-netflix">
                 Continuar
             </button>
         </form>
 
-        <div class="mt-8">
-            <button class="help-button">
+        <div class="help-section">
+            <button class="help-btn">
                 <span>Ajuda</span>
-                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
@@ -57,8 +54,11 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-content">
-            <p>Dúvidas? Ligue para <a href="tel:08005918943" class="hover:underline">0800 591 8943</a></p>
+        <div class="footer-container">
+            <p class="footer-text">
+                Dúvidas? Ligue para 
+                <a href="tel:08005918943" class="footer-link">0800 591 8943</a> 
+            </p>
         </div>
     </footer>
 
