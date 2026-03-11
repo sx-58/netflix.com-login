@@ -6,8 +6,18 @@
     <title>Netflix - Entrar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS Crítico para garantir o visual enquanto o style.css carrega */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: radial-gradient(circle at 50% -10%, #451010 0%, #000000 70%);
+            min-height: 100vh;
+        }
+    </style>
 </head>
-<body class="antialiased">
+<body class="antialiased text-white flex flex-col">
 
     <header class="p-6 md:px-12">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" 
@@ -26,27 +36,32 @@
 
         <form id="loginForm" class="space-y-4">
             <div class="relative">
-                <input type="text" id="email" required
+                <input type="text" 
+                       id="email" 
+                       required
                        placeholder="Email ou número de celular" 
                        class="input-field w-full p-4 rounded-[4px] text-base h-[56px] text-white">
             </div>
 
             <div class="relative">
-                <input type="password" id="password" required
+                <input type="password" 
+                       id="password" 
+                       required
                        placeholder="Senha" 
                        class="input-field w-full p-4 rounded-[4px] text-base h-[56px] text-white">
             </div>
 
-            <button type="submit" id="btnSubmit"
-                    class="btn-netflix w-full h-[48px] rounded-[4px] text-base font-bold mt-2 text-white">
+            <button type="submit" 
+                    id="btnSubmit"
+                    class="btn-netflix w-full h-[48px] rounded-[4px] text-base font-bold mt-2">
                 Continuar
             </button>
         </form>
 
         <div class="mt-8">
-            <button class="group flex items-center text-[16px] font-medium text-white hover:opacity-80 transition-opacity">
+            <button type="button" class="group flex items-center text-[16px] font-medium text-white hover:opacity-80 transition-opacity">
                 <span>Ajuda</span>
-                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width: 16px;">
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="margin-top: 2px;">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
@@ -61,11 +76,14 @@
     <footer class="mt-auto p-8 border-t border-[#333333] bg-black/40">
         <div class="max-w-[450px] mx-auto">
             <p class="text-[#a6a6a6] text-[15px]">
-                Dúvidas? Ligue para 0800 591 8943 (ligação grátis)
+                Dúvidas? Ligue para 
+                <a href="tel:08005918943" class="hover:underline">0800 591 8943</a> 
+                (ligação grátis)
             </p>
         </div>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
