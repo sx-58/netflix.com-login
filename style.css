@@ -1,1 +1,69 @@
-<script>const content = decodeURIComponent(escape(atob("QGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9Um9ib3RvOndnaHRANDAwOzUwMDs3MDAmZGlzcGxheT1zd2FwJyk7Cgo6cm9vdCB7CiAgICAtLW5ldGZsaXgtcmVkOiAjZTUwOTE0OwogICAgLS1uZXRmbGl4LWRhcmstcmVkOiAjYjkwOTBiOwogICAgLS1pbnB1dC1iZzogcmdiYSgyMiwgMjIsIDIyLCAwLjkpOwogICAgLS10ZXh0LW11dGVkOiAjYTZhNmE2Owp9Cgpib2R5IHsKICAgIGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgc2Fucy1zZXJpZjsKICAgIG1hcmdpbjogMDsKICAgIGJhY2tncm91bmQ6IHJhZGlhbC1ncmFkaWVudChjaXJjbGUgYXQgNTAlIC0xMCUsICM0NTEwMTAgMCUsICMwMDAwMDAgNzAlKTsKICAgIG1pbi1oZWlnaHQ6IDEwMHZoOwogICAgY29sb3I6IHdoaXRlOwogICAgZGlzcGxheTogZmxleDsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Cn0KCi5sb2dvLW5ldGZsaXggeyB3aWR0aDogMTAwcHg7IH0KQG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KSB7IC5sb2dvLW5ldGZsaXggeyB3aWR0aDogMTIwcHg7IH0gfQoKLm1haW4tY29udGFpbmVyIHsKICAgIGZsZXgtZ3JvdzogMTsKICAgIHBhZGRpbmc6IDFyZW0gMnJlbTsKICAgIG1heC13aWR0aDogNDUwcHg7CiAgICBtYXJnaW46IDAgYXV0bzsKICAgIHdpZHRoOiAxMDAlOwp9CgoudGl0bGUgeyBmb250LXNpemU6IDMycHg7IGZvbnQtd2VpZ2h0OiA3MDA7IG1hcmdpbi1ib3R0b206IDAuMjVyZW07IH0KLnN1YnRpdGxlIHsgY29sb3I6IHZhcigtLXRleHQtbXV0ZWQpOyBmb250LXNpemU6IDEuMTI1cmVtOyBtYXJnaW4tYm90dG9tOiAxLjc1cmVtOyB9Ci5saW5rLXdoaXRlIHsgY29sb3I6IHdoaXRlOyBmb250LXdlaWdodDogNTAwOyB9Ci5saW5rLXdoaXRlOmhvdmVyIHsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IH0KCi5pbnB1dC1maWVsZCB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1pbnB1dC1iZykgIWltcG9ydGFudDsKICAgIGJvcmRlcjogMXB4IHNvbGlkICM4YzhjOGM7CiAgICBjb2xvcjogd2hpdGU7CiAgICB0cmFuc2l0aW9uOiBhbGwgMC4yczsKfQoKLmlucHV0LWZpZWxkOmZvY3VzIHsKICAgIGJvcmRlci1jb2xvcjogd2hpdGU7CiAgICBvdXRsaW5lOiBub25lOwogICAgYmFja2dyb3VuZC1jb2xvcjogIzJiMmIyYiAhaW1wb3J0YW50Owp9CgouYnRuLW5ldGZsaXggeyAKICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLW5ldGZsaXgtcmVkKTsgCiAgICB0cmFuc2l0aW9uOiAwLjJzOwp9CgouYnRuLW5ldGZsaXg6aG92ZXIgeyBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1uZXRmbGl4LWRhcmstcmVkKTsgfQouYnRuLW5ldGZsaXg6YWN0aXZlIHsgdHJhbnNmb3JtOiBzY2FsZSgwLjk4KTsgfQouYnRuLW5ldGZsaXg6ZGlzYWJsZWQgeyBvcGFjaXR5OiAwLjY7IGN1cnNvcjogbm90LWFsbG93ZWQ7IH0KCi5oZWxwLWJ1dHRvbiB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGZvbnQtc2l6ZTogMTZweDsgb3BhY2l0eTogMTsgdHJhbnNpdGlvbjogMC4yczsgfQouaGVscC1idXR0b246aG92ZXIgeyBvcGFjaXR5OiAwLjg7IH0KCi5yZWNhcHRjaGEtdGV4dCB7IGNvbG9yOiAjNzM3MzczOyBmb250LXNpemU6IDEzcHg7IG1hcmdpbi10b3A6IDNyZW07IH0KCi5mb290ZXIgewogICAgcGFkZGluZzogMnJlbTsKICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCAjMzMzOwogICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLCAwLCAwLCAwLjQpOwogICAgbWFyZ2luLXRvcDogYXV0bzsKfQouZm9vdGVyLWNvbnRlbnQgeyBtYXgtd2lkdGg6IDQ1MHB4OyBtYXJnaW46IDAgYXV0bzsgY29sb3I6IHZhcigtLXRleHQtbXV0ZWQpOyBmb250LXNpemU6IDE1cHg7IH0=")));document.open();document.write(content);document.close();</script>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --netflix-red: #e50914;
+    --netflix-dark-red: #b9090b;
+    --input-bg: rgba(22, 22, 22, 0.9);
+    --text-muted: #a6a6a6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: radial-gradient(circle at 50% -10%, #451010 0%, #000000 70%);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-netflix { width: 100px; }
+@media (min-width: 768px) { .logo-netflix { width: 120px; } }
+
+.main-container {
+    flex-grow: 1;
+    padding: 1rem 2rem;
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.title { font-size: 32px; font-weight: 700; margin-bottom: 0.25rem; }
+.subtitle { color: var(--text-muted); font-size: 1.125rem; margin-bottom: 1.75rem; }
+.link-white { color: white; font-weight: 500; }
+.link-white:hover { text-decoration: underline; }
+
+.input-field {
+    background-color: var(--input-bg) !important;
+    border: 1px solid #8c8c8c;
+    color: white;
+    transition: all 0.2s;
+}
+
+.input-field:focus {
+    border-color: white;
+    outline: none;
+    background-color: #2b2b2b !important;
+}
+
+.btn-netflix { 
+    background-color: var(--netflix-red); 
+    transition: 0.2s;
+}
+
+.btn-netflix:hover { background-color: var(--netflix-dark-red); }
+.btn-netflix:active { transform: scale(0.98); }
+.btn-netflix:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.help-button { display: flex; align-items: center; font-size: 16px; opacity: 1; transition: 0.2s; }
+.help-button:hover { opacity: 0.8; }
+
+.recaptcha-text { color: #737373; font-size: 13px; margin-top: 3rem; }
+
+.footer {
+    padding: 2rem;
+    border-top: 1px solid #333;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: auto;
+}
+.footer-content { max-width: 450px; margin: 0 auto; color: var(--text-muted); font-size: 15px; }
