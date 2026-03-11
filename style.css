@@ -2,6 +2,7 @@
 
 :root {
     --netflix-red: #e50914;
+    --netflix-dark-red: #b9090b;
     --input-bg: rgba(22, 22, 22, 0.9);
 }
 
@@ -10,7 +11,6 @@ body {
     margin: 0;
     background: radial-gradient(circle at 50% -10%, #451010 0%, #000000 70%);
     min-height: 100vh;
-    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -18,16 +18,22 @@ body {
 .input-field {
     background-color: var(--input-bg) !important;
     border: 1px solid #8c8c8c;
-    color: white;
+    transition: border-color 0.2s;
 }
 
 .input-field:focus {
     border-color: white;
     outline: none;
+    background-color: #2b2b2b !important;
 }
 
 .btn-netflix {
     background-color: var(--netflix-red);
+    cursor: pointer;
+}
+
+.btn-netflix:active {
+    background-color: var(--netflix-dark-red);
 }
 
 .recaptcha-text {
